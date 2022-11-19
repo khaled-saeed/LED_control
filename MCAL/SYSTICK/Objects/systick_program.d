@@ -1,0 +1,10 @@
+.\objects\systick_program.o: SYSTICK_program.c
+.\objects\systick_program.o: SYSTICK_interface.h
+.\objects\systick_program.o: SYSTICK_config.h
+.\objects\systick_program.o: SYSTICK_private.h
+.\objects\systick_program.o: ../../LIBRARIES/DIO.h
+.\objects\systick_program.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systick_program.o: ../Interrupt_Module/INT_interface.h
+.\objects\systick_program.o: ../Interrupt_Module/INT_config.h
+.\objects\systick_program.o: ../Interrupt_Module/INT_private.h
+.\objects\systick_program.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h

@@ -1,0 +1,13 @@
+.\objects\main.o: main.c
+.\objects\main.o: LED_control.h
+.\objects\main.o: ../../MCAL/Interrupt_Module/INT_interface.h
+.\objects\main.o: ../../MCAL/Interrupt_Module/INT_config.h
+.\objects\main.o: ../../MCAL/Interrupt_Module/INT_private.h
+.\objects\main.o: ../../MCAL/Interrupt_Module/../../LIBRARIES/DIO.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: ../../MCAL/GPIO_API/GPIO_interface.h
+.\objects\main.o: ../../MCAL/GPIO_API/GPIO_config.h
+.\objects\main.o: ../../MCAL/GPIO_API/GPIO_private.h
+.\objects\main.o: ../../MCAL/SYSTICK/SYSTICK_interface.h
+.\objects\main.o: ../../MCAL/SYSTICK/SYSTICK_config.h
+.\objects\main.o: ../../MCAL/SYSTICK/SYSTICK_private.h

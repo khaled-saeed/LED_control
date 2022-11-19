@@ -1,0 +1,12 @@
+.\gpio_program.o: ..\GPIO_API\GPIO_program.c
+.\gpio_program.o: ..\GPIO_API\GPIO_interface.h
+.\gpio_program.o: ..\GPIO_API\GPIO_config.h
+.\gpio_program.o: ..\GPIO_API\../../LIBRARIES/DIO.h
+.\gpio_program.o: ..\GPIO_API\GPIO_private.h
+.\gpio_program.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\gpio_program.o: C:\Keil\ARM\Inc\TI\TM4C123\TM4C123GH6PM.h
+.\gpio_program.o: C:\Keil\ARM\CMSIS\Include\core_cm4.h
+.\gpio_program.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\gpio_program.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\gpio_program.o: C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h
+.\gpio_program.o: C:\Keil\ARM\Inc\TI\TM4C123\system_TM4C123.h

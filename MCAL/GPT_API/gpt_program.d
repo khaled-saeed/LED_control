@@ -1,0 +1,15 @@
+.\gpt_program.o: GPT_program.c
+.\gpt_program.o: GPT_interface.h
+.\gpt_program.o: GPT_config.h
+.\gpt_program.o: GPT_private.h
+.\gpt_program.o: ../../LIBRARIES/DIO.h
+.\gpt_program.o: ../GPIO_API/GPIO_interface.h
+.\gpt_program.o: ../GPIO_API/GPIO_config.h
+.\gpt_program.o: ../GPIO_API/GPIO_private.h
+.\gpt_program.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\gpt_program.o: C:\Keil\ARM\Inc\TI\TM4C123\TM4C123GH6PM.h
+.\gpt_program.o: C:\Keil\ARM\CMSIS\Include\core_cm4.h
+.\gpt_program.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\gpt_program.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\gpt_program.o: C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h
+.\gpt_program.o: C:\Keil\ARM\Inc\TI\TM4C123\system_TM4C123.h

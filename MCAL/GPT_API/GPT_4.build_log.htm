@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\EGY_FWD\Advanced\COTS\MCAL\GPT_API\GPT_4.uvproj
+Project File Date:  11/15/2022
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_TM4C123.s...
+compiling GPT_program.c...
+compiling main.c...
+compiling GPIO_program.c...
+..\GPIO_API\GPIO_program.c(63): error:  #137: expression must be a modifiable lvalue
+        CurrPort->CR = 0x01 ;  
+..\GPIO_API\GPIO_program.c(157): error:  #137: expression must be a modifiable lvalue
+        PORT_WRITE(CurrPort->CR,0xFF) ; 
+..\GPIO_API\GPIO_program.c(373): warning:  #188-D: enumerated type mixed with another type
+                return READ_BIT(CurrPort->DATA , pin);  
+..\GPIO_API\GPIO_program.c(556): error:  #137: expression must be a modifiable lvalue
+        CurrPort->CR = 0x01 ;  
+..\GPIO_API\GPIO_program.c: 1 warning, 3 errors
+".\GPT_4.axf" - 3 Error(s), 1 Warning(s).
+Target not created
+</pre>
+</body>
+</html>

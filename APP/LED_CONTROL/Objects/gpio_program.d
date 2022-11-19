@@ -1,0 +1,9 @@
+.\objects\gpio_program.o: ..\..\MCAL\GPIO_API\GPIO_program.c
+.\objects\gpio_program.o: ..\..\MCAL\GPIO_API\GPIO_interface.h
+.\objects\gpio_program.o: ..\..\MCAL\GPIO_API\GPIO_config.h
+.\objects\gpio_program.o: ..\..\MCAL\GPIO_API\GPIO_private.h
+.\objects\gpio_program.o: ..\..\MCAL\GPIO_API\../../LIBRARIES/DIO.h
+.\objects\gpio_program.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpio_program.o: ..\..\MCAL\GPIO_API\../Interrupt_Module/INT_interface.h
+.\objects\gpio_program.o: ..\..\MCAL\GPIO_API\../Interrupt_Module/INT_config.h
+.\objects\gpio_program.o: ..\..\MCAL\GPIO_API\../Interrupt_Module/INT_private.h
