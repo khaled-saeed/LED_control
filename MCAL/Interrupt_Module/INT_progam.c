@@ -1,6 +1,7 @@
 #include "INT_interface.h"
 #include "../GPIO_API/GPIO_interface.h"
 #include "../GPT_API/GPT_interface.h"
+#include "../../APP/LED_CONTROL/LED_control.h" 
 /***********************************************************************************
 												GPIO Callback Functions pointers 
 ************************************************************************************/
@@ -438,7 +439,17 @@ void GPIOF_INT_Handler(uint32_t pin)
 	#elif BUS_TYPE == AHB 
 		if(pin == (1U<<PF0))
 			{
-				GPIO_digitalPin_toggle(PORT_F,PF2); 
+				
+				T_ON += 5; 
+				T_OFF -= 5 ; 
+				if(T_ON > 200)
+				{
+					T_ON = 1  ; 
+				}
+				if(T_OFF<=0)
+				{
+					T_OFF = 1 ; 
+				}
 				SET_BIT(GPIOF_AHB->ICR,PF0);
 			}
 		else if (pin == (1U<<PF1))
@@ -455,7 +466,19 @@ void GPIOF_INT_Handler(uint32_t pin)
 			}
 		else if (pin == (1U<<PF4))
 			{
+				T_OFF += 5 ; 
+				T_ON -= 5 ; 
+				if(T_OFF > 200)
+				{
+					T_OFF = 1  ; 
+				}
+				if(T_ON <= 0)
+				{
+					T_ON = 1 ; 
+				}
+				
 				SET_BIT(GPIOF_AHB->ICR,PF4);
+				
 			}
 	
 	#endif 

@@ -405,11 +405,6 @@
               <FilePath>.\INT_interface.h</FilePath>
             </File>
             <File>
-              <FileName>DIO.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\LIBRARIES\DIO.h</FilePath>
-            </File>
-            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
@@ -453,6 +448,16 @@
               <FileName>GPT_program.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\GPT_API\GPT_program.c</FilePath>
+            </File>
+            <File>
+              <FileName>bit_math.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\LIBRARIES\bit_math.h</FilePath>
+            </File>
+            <File>
+              <FileName>STD_types.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\LIBRARIES\STD_types.h</FilePath>
             </File>
           </Files>
         </Group>

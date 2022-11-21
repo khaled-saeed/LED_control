@@ -1,50 +1,43 @@
 Dependencies for Project 'GPIO', Target 'TM4C123x': (DO NOT MODIFY !)
-CompilerVersion: 6180000::V6.18::ARMCLANG
-F (.\GPIO_config.h)(0x6375FC22)()
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\GPIO_config.h)(0x6377EC00)()
 F (.\GPIO_interface.h)(0x63763BD5)()
-F (.\GPIO_private.h)(0x6376346E)()
-F (.\GPIO_program.c)(0x6376465B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Keil_v5/ARM/RV31/Inc-I./RTE/_TM4C123x-IC:/Users/khale/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/khale/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpio_program.o -MD)
+F (.\GPIO_private.h)(0x637B2C07)()
+F (.\GPIO_program.c)(0x6376465B)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_TM4C123x-IC:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khale\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\gpio_program.o --omf_browse .\objects\gpio_program.crf --depend .\objects\gpio_program.d)
 I (GPIO_interface.h)(0x63763BD5)
-I (GPIO_config.h)(0x6375FC22)
-I (..\..\LIBRARIES\DIO.h)(0x63763416)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
-I (GPIO_private.h)(0x6376346E)
-I (..\Interrupt_Module\INT_interface.h)(0x63763A4D)
-I (..\Interrupt_Module\INT_config.h)(0x6375FDE6)
-I (..\Interrupt_Module\INT_private.h)(0x63763423)
-I (..\Interrupt_Module\..\..\LIBRARIES\DIO.h)(0x63763416)
-F (.\main.c)(0x63763BD5)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Keil_v5/ARM/RV31/Inc-I./RTE/_TM4C123x-IC:/Users/khale/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/khale/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+I (GPIO_config.h)(0x6377EC00)
+I (GPIO_private.h)(0x637B2C07)
+I (../../LIBRARIES/bit_math.h)(0x637B2AED)
+I (../../LIBRARIES/STD_types.h)(0x637B2C25)
+I (../Interrupt_Module/INT_interface.h)(0x63779393)
+I (../Interrupt_Module/INT_config.h)(0x6378C0A0)
+I (../Interrupt_Module/INT_private.h)(0x63763423)
+F (.\main.c)(0x637A7C04)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_TM4C123x-IC:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khale\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (GPIO_interface.h)(0x63763BD5)
-I (GPIO_config.h)(0x6375FC22)
-I (..\..\LIBRARIES\DIO.h)(0x63763416)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
-I (GPIO_private.h)(0x6376346E)
-I (..\Interrupt_Module\INT_interface.h)(0x63763A4D)
-I (..\Interrupt_Module\INT_config.h)(0x6375FDE6)
-I (..\Interrupt_Module\INT_private.h)(0x63763423)
-I (..\Interrupt_Module\..\..\LIBRARIES\DIO.h)(0x63763416)
-F (..\Interrupt_Module\INT_config.h)(0x6375FDE6)()
-F (..\Interrupt_Module\INT_interface.h)(0x63763A4D)()
+I (GPIO_config.h)(0x6377EC00)
+I (GPIO_private.h)(0x637B2C07)
+I (../../LIBRARIES/bit_math.h)(0x637B2AED)
+I (../../LIBRARIES/STD_types.h)(0x637B2C25)
+I (../Interrupt_Module/INT_interface.h)(0x63779393)
+I (../Interrupt_Module/INT_config.h)(0x6378C0A0)
+I (../Interrupt_Module/INT_private.h)(0x63763423)
+F (..\Interrupt_Module\INT_config.h)(0x6378C0A0)()
+F (..\Interrupt_Module\INT_interface.h)(0x63779393)()
 F (..\Interrupt_Module\INT_private.h)(0x63763423)()
-F (..\Interrupt_Module\INT_progam.c)(0x63765972)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Keil_v5/ARM/RV31/Inc-I./RTE/_TM4C123x-IC:/Users/khale/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/khale/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/int_progam.o -MD)
-I (..\Interrupt_Module\INT_interface.h)(0x63763A4D)
-I (..\Interrupt_Module\INT_config.h)(0x6375FDE6)
+F (..\Interrupt_Module\INT_progam.c)(0x63779418)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_TM4C123x-IC:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khale\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\int_progam.o --omf_browse .\objects\int_progam.crf --depend .\objects\int_progam.d)
+I (..\Interrupt_Module\INT_interface.h)(0x63779393)
+I (..\Interrupt_Module\INT_config.h)(0x6378C0A0)
 I (..\Interrupt_Module\INT_private.h)(0x63763423)
-I (..\Interrupt_Module\..\..\LIBRARIES\DIO.h)(0x63763416)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
-I (..\Interrupt_Module\..\GPIO_API\GPIO_interface.h)(0x63763BD5)
-I (..\Interrupt_Module\..\GPIO_API\GPIO_config.h)(0x6375FC22)
-I (..\Interrupt_Module\..\GPIO_API\..\..\LIBRARIES\DIO.h)(0x63763416)
-I (..\Interrupt_Module\..\GPIO_API\GPIO_private.h)(0x6376346E)
-I (..\Interrupt_Module\..\GPIO_API\..\Interrupt_Module\INT_interface.h)(0x63763A4D)
-F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x51B6E406)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__RTX SETA 1" -Wa,armasm,--pd,"__EVAL SETA 1"-IC:/Keil_v5/ARM/RV31/Inc-I./RTE/_TM4C123x-IC:/Users/khale/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/khale/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
-F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x550A65DA)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Keil_v5/ARM/RV31/Inc-I./RTE/_TM4C123x-IC:/Users/khale/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/khale/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+F (..\..\LIBRARIES\bit_math.h)(0x637B2AED)()
+F (..\..\LIBRARIES\STD_types.h)(0x637B2C25)()
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x51B6E406)(--cpu Cortex-M4.fp.sp --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_TM4C123x-IC:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khale\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 537" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_tm4c123.lst --xref -o .\objects\startup_tm4c123.o --depend .\objects\startup_tm4c123.d)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x550A65DA)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_TM4C123x-IC:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khale\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\system_tm4c123.o --omf_browse .\objects\system_tm4c123.crf --depend .\objects\system_tm4c123.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
 I (C:\Users\khale\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\khale\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F9F3E)
 I (C:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F9F3E)
 I (C:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F9F3E)
-I (C:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F9F3E)
+I (C:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F9F3E)
 I (C:\Users\khale\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F9F3E)
 I (C:\Users\khale\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)

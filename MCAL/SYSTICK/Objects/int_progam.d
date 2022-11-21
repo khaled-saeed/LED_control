@@ -2,8 +2,8 @@
 .\objects\int_progam.o: ..\Interrupt_Module\INT_interface.h
 .\objects\int_progam.o: ..\Interrupt_Module\INT_config.h
 .\objects\int_progam.o: ..\Interrupt_Module\INT_private.h
-.\objects\int_progam.o: ..\Interrupt_Module\../../LIBRARIES/DIO.h
-.\objects\int_progam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\int_progam.o: ..\Interrupt_Module\../../LIBRARIES/bit_math.h
+.\objects\int_progam.o: ..\Interrupt_Module\../../LIBRARIES/STD_types.h
 .\objects\int_progam.o: ..\Interrupt_Module\../GPIO_API/GPIO_interface.h
 .\objects\int_progam.o: ..\Interrupt_Module\../GPIO_API/GPIO_config.h
 .\objects\int_progam.o: ..\Interrupt_Module\../GPIO_API/GPIO_private.h

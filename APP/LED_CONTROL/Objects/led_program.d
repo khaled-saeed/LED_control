@@ -1,0 +1,12 @@
+.\objects\led_program.o: ..\..\HAL\LED\LED_program.c
+.\objects\led_program.o: ..\..\HAL\LED\LED_interface.h
+.\objects\led_program.o: ..\..\HAL\LED\LED_config.h
+.\objects\led_program.o: ..\..\HAL\LED\LED_private.h
+.\objects\led_program.o: ..\..\HAL\LED\../../LIBRARIES/bit_math.h
+.\objects\led_program.o: ..\..\HAL\LED\../../LIBRARIES/STD_types.h
+.\objects\led_program.o: ..\..\HAL\LED\../../MCAL/GPIO_API/GPIO_interface.h
+.\objects\led_program.o: ..\..\HAL\LED\../../MCAL/GPIO_API/GPIO_config.h
+.\objects\led_program.o: ..\..\HAL\LED\../../MCAL/GPIO_API/GPIO_private.h
+.\objects\led_program.o: ..\..\HAL\LED\../../MCAL/GPIO_API/../Interrupt_Module/INT_interface.h
+.\objects\led_program.o: ..\..\HAL\LED\../../MCAL/GPIO_API/../Interrupt_Module/INT_config.h
+.\objects\led_program.o: ..\..\HAL\LED\../../MCAL/GPIO_API/../Interrupt_Module/INT_private.h

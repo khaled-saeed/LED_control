@@ -1,8 +1,8 @@
 #ifndef __INT_PRIVATE_H__
 #define __INT_PRIVATE_H__
 
-#include "../../LIBRARIES/DIO.h"
-
+#include "../../LIBRARIES/bit_math.h"
+#include "../../LIBRARIES/STD_types.h"
 
 typedef struct
 {

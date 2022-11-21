@@ -2,8 +2,8 @@
 .\objects\systick_program.o: ..\..\MCAL\SYSTICK\SYSTICK_interface.h
 .\objects\systick_program.o: ..\..\MCAL\SYSTICK\SYSTICK_config.h
 .\objects\systick_program.o: ..\..\MCAL\SYSTICK\SYSTICK_private.h
-.\objects\systick_program.o: ..\..\MCAL\SYSTICK\../../LIBRARIES/DIO.h
-.\objects\systick_program.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systick_program.o: ..\..\MCAL\SYSTICK\../../LIBRARIES/bit_math.h
+.\objects\systick_program.o: ..\..\MCAL\SYSTICK\../../LIBRARIES/STD_types.h
 .\objects\systick_program.o: ..\..\MCAL\SYSTICK\../Interrupt_Module/INT_interface.h
 .\objects\systick_program.o: ..\..\MCAL\SYSTICK\../Interrupt_Module/INT_config.h
 .\objects\systick_program.o: ..\..\MCAL\SYSTICK\../Interrupt_Module/INT_private.h

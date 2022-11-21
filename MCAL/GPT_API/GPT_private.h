@@ -1,6 +1,7 @@
 #ifndef __GPT_PRIVATE_H__
 #define __GPT_PRIVATE_H__
-#include "../../LIBRARIES/DIO.h"
+#include "../../LIBRARIES/bit_math.h"
+#include "../../LIBRARIES/STD_types.h"
 #include "../GPIO_API/GPIO_interface.h"
 #include "../Interrupt_Module/INT_interface.h"
 /********************************************

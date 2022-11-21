@@ -7,7 +7,7 @@ void SYSTICK_init(uint32_t ms)
 	assert(ms*4000 <= 16777216);
 	SysTick->LOAD = (ms*4000) -1;
 	
-	#elif CLOCK_SRC == INTERNAL_OSC
+	#elif CLOCK_SRC == SYSTEM_CLK
 	
 	assert(ms*16000 <= 16777216);
 	SysTick->LOAD = (ms*16000) -1;

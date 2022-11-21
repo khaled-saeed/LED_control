@@ -4,8 +4,8 @@
 extern callback_fptr_t callBack_FuncPtr; 
 int main()
 {	
-	GPIO_pinInit(PORT_F,PF2,OUTPUT,NONE,ANALOG_DIS,ALT_DIS) ; 
-	EXT_INT_init(PORT_F,PF0,PULL_UP,Falling_Edge,GPIOF_INT_Handler);
+	GPIO_portInit(PORT_F,PF1,OUTPUT,NONE,ANALOG_DIS); 
+	GPIOF_AHB->DATA_BITS[2] = 0x2; 
 	while(1)
 	{
 

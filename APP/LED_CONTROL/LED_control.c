@@ -1,28 +1,36 @@
 #include "LED_control.h"
-volatile uint32_t T_ON;
-volatile uint32_t T_OFF; 
-volatile bool LED_ON  ;
-void LED_init(PORT_t port,PIN_t pin ,uint32_t time_on,uint32_t time_off )
+volatile int32_t T_ON;
+volatile int32_t T_OFF; 
+volatile bool FLAG ; 
+
+LED_t RED ;
+void APP_init(void)
 {
-	GPIO_pinInit(port,pin,OUTPUT,NONE,ANALOG_DIS,ALT_DIS); 
+
+	SW_t switch1,switch2; 
+	LED_init(&RED,PORT_F,PF1);
+	SW_init(&switch1,PORT_F,PF0,ENABLED,PULL_UP); 
+	SW_init(&switch2,PORT_F,PF4,ENABLED,PULL_UP); 
 	SYSTICK_SetCallbackFunc(LED_intensity_control); 
-	T_ON = time_on ; 
-	T_OFF = time_off; 
-	LED_ON = False ;
-	SYSTICK_init(T_OFF); 			
+	T_ON = 1 ; 
+	T_OFF = 1; 
+	FLAG = False ;
+	SYSTICK_init(T_OFF);
 }
+
+
 void LED_intensity_control()
 {
-	if (LED_ON == False)
+	if (FLAG == False)
 	{
 		SYSTICK_init(T_ON); 
-		LED_ON = True ; 
+		FLAG = True ; 
 	}
 	else
 	{
 		SYSTICK_init(T_OFF); 
-		LED_ON = False ; 
+		FLAG = False ; 
 	}
-	GPIO_digitalPin_toggle(PORT_F,PF3); 
+	LED_Toggle(&RED); 
 	
 }

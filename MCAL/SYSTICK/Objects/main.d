@@ -2,8 +2,8 @@
 .\objects\main.o: SYSTICK_interface.h
 .\objects\main.o: SYSTICK_config.h
 .\objects\main.o: SYSTICK_private.h
-.\objects\main.o: ../../LIBRARIES/DIO.h
-.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: ../../LIBRARIES/bit_math.h
+.\objects\main.o: ../../LIBRARIES/STD_types.h
 .\objects\main.o: ../Interrupt_Module/INT_interface.h
 .\objects\main.o: ../Interrupt_Module/INT_config.h
 .\objects\main.o: ../Interrupt_Module/INT_private.h

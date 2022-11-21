@@ -22,27 +22,32 @@ Dialog DLL:      TCM.DLL V1.56.1.0
  
 <h2>Project:</h2>
 D:\EGY_FWD\Advanced\COTS\APP\LED_CONTROL\LED_CONTROL.uvprojx
-Project File Date:  11/18/2022
+Project File Date:  11/21/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Rebuild target 'Target 1'
 compiling SYSTICK_program.c...
+compiling LED_control.c...
 compiling main.c...
-main.c(17): warning:  #1-D: last line of file ends without a newline
+main.c(24): warning:  #1-D: last line of file ends without a newline
   }
 main.c: 1 warning, 0 errors
-compiling LED_control.c...
-assembling startup_TM4C123.s...
+compiling LED_program.c...
+..\..\HAL\LED\LED_program.c(19): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\HAL\LED\LED_program.c: 1 warning, 0 errors
 compiling GPIO_program.c...
 ..\..\MCAL\GPIO_API\GPIO_program.c(374): warning:  #188-D: enumerated type mixed with another type
   		return READ_BIT(CurrPort->DATA , pin);  
 ..\..\MCAL\GPIO_API\GPIO_program.c: 1 warning, 0 errors
 compiling INT_progam.c...
+compiling SW_program.c...
+assembling startup_TM4C123.s...
 compiling system_TM4C123.c...
 linking...
-Program Size: Code=2032 RO-data=652 RW-data=64 ZI-data=608  
-".\Objects\LED_CONTROL.axf" - 0 Error(s), 2 Warning(s).
+Program Size: Code=3032 RO-data=652 RW-data=64 ZI-data=608  
+".\Objects\LED_CONTROL.axf" - 0 Error(s), 3 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -68,10 +73,10 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.6.0
 
    * Component: Keil::Device:Startup:1.0.1
+      Source file:   Device/Source/system_TM4C123.c
       Include file:  Device/Include/TM4C123/TM4C123.h
       Source file:   Device/Source/ARM/startup_TM4C123.s
-      Source file:   Device/Source/system_TM4C123.c
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

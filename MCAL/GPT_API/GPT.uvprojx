@@ -410,11 +410,6 @@
               <FilePath>.\GPT_private.h</FilePath>
             </File>
             <File>
-              <FileName>DIO.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\LIBRARIES\DIO.h</FilePath>
-            </File>
-            <File>
               <FileName>GPIO_config.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\GPIO_API\GPIO_config.h</FilePath>
@@ -453,6 +448,16 @@
               <FileName>INT_progam.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Interrupt_Module\INT_progam.c</FilePath>
+            </File>
+            <File>
+              <FileName>bit_math.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\LIBRARIES\bit_math.h</FilePath>
+            </File>
+            <File>
+              <FileName>STD_types.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\LIBRARIES\STD_types.h</FilePath>
             </File>
           </Files>
         </Group>

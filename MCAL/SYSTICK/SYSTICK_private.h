@@ -1,6 +1,7 @@
 #ifndef __SYSTICK_PRIVATE_H__
 #define __SYSTICK_PRIVATE_H__
-#include "../../LIBRARIES/DIO.h"
+#include "../../LIBRARIES/bit_math.h"
+#include "../../LIBRARIES/STD_types.h"
 #include "../Interrupt_Module/INT_interface.h"
 
 #define INT_DISABLED	0

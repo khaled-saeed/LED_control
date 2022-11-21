@@ -459,6 +459,46 @@
               <FileType>1</FileType>
               <FilePath>..\..\MCAL\GPIO_API\GPIO_program.c</FilePath>
             </File>
+            <File>
+              <FileName>LED_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\HAL\LED\LED_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>LED_interface.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\HAL\LED\LED_interface.h</FilePath>
+            </File>
+            <File>
+              <FileName>LED_private.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\HAL\LED\LED_private.h</FilePath>
+            </File>
+            <File>
+              <FileName>LED_program.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\HAL\LED\LED_program.c</FilePath>
+            </File>
+            <File>
+              <FileName>SW_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\HAL\SWITCH\SW_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>SW_interface.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\HAL\SWITCH\SW_interface.h</FilePath>
+            </File>
+            <File>
+              <FileName>SW_private.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\HAL\SWITCH\SW_private.h</FilePath>
+            </File>
+            <File>
+              <FileName>SW_program.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\HAL\SWITCH\SW_program.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
